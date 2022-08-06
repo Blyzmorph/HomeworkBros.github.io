@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HomeworkBros - Ariz </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="hwbros/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="#">HOME</a></li>
+                    <li> <a href="https://homeworkbros.notion.site/About-us-4e837089bea74d51a113237c7d13de39" target="_blank">ABOUT US</a></li>
+                    <li> <a href="https://homeworkbros.notion.site/ " target=_blank>NOTION</a></li>
+                    <li> <a href="contact.html">CONTACT US </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Welcome to HomeworkBros</h1>
+            <p> A community of young minds inspired to work together.</p>
+            <a href="contact.html" class="hero-btn"> Contact us </a>
+        </div>
+    </section>
+    <!------ Notion ------->
+    <section class="notion">
+            <a href="#"><img src= "hwbros/notionlogo1.png"> </a>
+    <p> Visit us on Notion to get access to the best solutions to assignments, find notes and much more!<br> Check Out Now. </p>
+    <a href = "https://homeworkbros.notion.site/" class= "notion-btn" target="_blank"> Notion</a>
+    <!------Testimonials------>
+    <section class = "testimonials">
+        <h1>Reviews by our users. </h1>
+        <p></p>
+        <div class = "row">
+        <div class="testimonials-col">
+        <img src="/hwbros/med.png">
+        <div>
+            <p>Homework Bros is a website by the students, for the students. It really is the best thing that I have stumbled upon since a very long time.
+                Everything from my class to my sample papers all material was found there. Truly grateful.</p>
+            <h3>Medhannsh Sitani</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+
+        </div>
+    </div>
+</div>
+<div class = "row">
+        <div class="testimonials-col">
+        <img src="/hwbros/kamya.png">
+        <div>
+            <p>Homework Bros has helped me out with completing my tasks, kept me updated about ongoing assignments and even allowed me to share my work with others. It's the perfect online tool for students.</p>
+            <h3>Kamya Rampal</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+
+        </div>
+    </div>
+</div>
+   
+
+    
+    
+    
+    </section>
+<!----- Call To Action----->
+<section class = "cta">
+    <h1> Contact us now and know more! </h1>
+    <a href="contact.html" class="hero-btn"> CONTACT US </a>
+
+
+
+
+</section>
+<!---- Footer ----->
+    <section class ="footer">
+        <h4> About Us </h4>
+        <p>Homework Bros is an educational website which was made on April 13, 2020 as an initiative to help students by getting solved homework and assignment solutions with a place where they can discuss their doubts and have study along sessions to make learning fun.</p>
+        <div class="icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p> Made with <i class="fa-regular fa-heart"></i> by Ariz </p>
+
+    </section>
+<!--------- javascript (toggle menu)----->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
